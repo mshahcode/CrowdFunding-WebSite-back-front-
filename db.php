@@ -1,8 +1,7 @@
 <?php
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
-    //$con = new mysqli("localhost:3306","root","","crowdfundinghomwork");
-    $con = new mysqli("mysql-mikayil.alwaysdata.net","mikayil","MikaMika123","mikayil_hwproject");
+    $con = new mysqli("localhost:3306","root","","crowdfundinghomwork");
 
     // Check connection
     if ($con -> connect_errno) {
